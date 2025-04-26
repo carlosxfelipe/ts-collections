@@ -4,7 +4,7 @@ Estruturas de Dados inspiradas em `java.util` para TypeScript/Bun/Node.js
 
 ## Visão Geral
 
-Este projeto oferece uma coleção de **estruturas de dados clássicas**, inspiradas no pacote [`java.util`](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html) do Java, porém implementadas em **TypeScript** e prontas para uso em projetos Bun, Node.js ou TypeScript puro.
+Este projeto oferece uma coleção de **estruturas de dados clássicas**, inspiradas no pacote [`java.util`](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html) do Java, porém implementadas em **TypeScript** e prontas para uso em projetos Bun ou Node.js.
 
 Ideal para quem sente falta das coleções do Java, ou quer aprender/ensinar fundamentos de estrutura de dados de forma moderna e multiplataforma!
 
@@ -40,9 +40,18 @@ bun run main.ts
   - `TreeSet<T>`
 
 - **Mapas (Dicionários):**
+
   - `HashMap<K, V>`
   - `LinkedHashMap<K, V>`
   - `TreeMap<K, V>`
+
+- **Algoritmos de Ordenação:**
+
+  - `bubbleSort<T>`
+  - `selectionSort<T>`
+  - `insertionSort<T>`
+  - `mergeSort<T>`
+  - `quickSort<T>`
 
 ## Motivação
 

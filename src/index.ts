@@ -9,3 +9,5 @@ export * from "./HashMap";
 export * from "./LinkedHashMap";
 export * from "./TreeMap";
 export * from "./PriorityQueue";
+
+export * from "./Sort";

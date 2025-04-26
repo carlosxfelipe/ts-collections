@@ -11,6 +11,13 @@ import {
   TreeMap,
   PriorityQueue,
 } from "./src";
+import {
+  bubbleSort,
+  selectionSort,
+  insertionSort,
+  mergeSort,
+  quickSort,
+} from "./src/Sort";
 
 // ArrayList
 const arrList = new ArrayList<number>();
@@ -83,3 +90,20 @@ pq.enqueue(5);
 pq.enqueue(1);
 pq.enqueue(10);
 console.log("PriorityQueue dequeue (min):", pq.dequeue());
+
+// --- Sort algorithms ---
+
+const nums = [4, 2, 7, 1, 3];
+
+console.log("bubbleSort:", bubbleSort(nums));
+console.log("selectionSort:", selectionSort(nums));
+console.log("insertionSort:", insertionSort(nums));
+console.log("mergeSort:", mergeSort(nums));
+console.log("quickSort:", quickSort(nums));
+
+// Comparator de strings
+const words = ["banana", "apple", "orange"];
+console.log(
+  "mergeSort strings:",
+  mergeSort(words, (a, b) => a.localeCompare(b))
+);
