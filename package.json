@@ -1,0 +1,9 @@
+{
+  "name": "ts-collections",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.ts",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
